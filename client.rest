@@ -1,0 +1,13 @@
+POST http://localhost:3000/api/signIn
+Content-Type:application/json
+
+{
+    "id_user": 3,
+    "user_name": "Pedro",
+    "email": "pedro@gmail.com",
+    "password": "1234",
+    "type": "Candidate"
+}
+###
+GET  http://localhost:3000/api/session
+Content-Type:application/json
