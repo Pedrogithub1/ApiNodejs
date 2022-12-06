@@ -1,12 +1,14 @@
 const mysql = require('mysql');
-/*const conexion = mysql.createConnection({
-    host: 'kinesiologist-db.cu0emtvjku58.us-east-2.rds.amazonaws.com',
+const conexion = mysql.createConnection({
+    host: 'kinesiologist.caaeogqemazg.us-east-1.rds.amazonaws.com',
     user: 'admin',
-    password: 'Delivery[]007',
+    password: 'AdminRoot',
     port: '3306',
     database: 'kinesiologist'
 });
-*/
+
+
+/*
 const conexion = mysql.createConnection({
     host: 'localhost',
     user: 'root',
@@ -15,7 +17,7 @@ const conexion = mysql.createConnection({
     database: 'kinesiologist'
 });
 
-
+*/
 
 conexion.connect((err)=>{
     if(err){
